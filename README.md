@@ -42,7 +42,7 @@ php artisan serve
 ### Batch Employee Import
 The API provides an endpoint for batch importing employee data from a CSV file.
 
-### Endpoint
+### Endpoints
 1. Start Redis service
 ```
  sudo service redis-server start
@@ -62,17 +62,17 @@ curl -X POST -H 'Content-Type: text/csv' --data-binary @import.csv http://{youra
 In a real work scenario, I would incorporate the following additional features and improvements:
 
 
-Error Handling: Enhance error handling to provide meaningful error messages and status codes for different scenarios, such as invalid input or database errors (more improved way of handling errors).
+**Error Handling**: Enhance error handling to provide meaningful error messages and status codes for different scenarios, such as invalid input or database errors (more improved way of handling errors).
 
-Authentication and Authorization: Secure the API endpoints using authentication mechanisms like JWT tokens and implement role-based access control to restrict access to certain endpoints.
+**Authentication and Authorization**: Secure the API endpoints using authentication mechanisms like JWT tokens and implement role-based access control to restrict access to certain endpoints.
 
-Unit Testing: Write comprehensive unit tests to ensure the reliability and stability of the application, covering both positive and negative scenarios.
+**Unit Testing**: Write comprehensive unit tests to ensure the reliability and stability of the application, covering both positive and negative scenarios.
 
-Documentation: Provide detailed documentation for the API endpoints, including usage examples and response formats, to assist developers in integrating with the API.
+**Documentation**: Provide detailed documentation for the API endpoints, including usage examples and response formats, to assist developers in integrating with the API.
 
-Logging: Set up logging to record important events and errors, which can be useful for troubleshooting and monitoring the application in production environments. Already implemented but in more advanced way.
+**Logging**: Set up logging to record important events and errors, which can be useful for troubleshooting and monitoring the application in production environments. Already implemented but in more advanced way.
 
-Performance Optimization: Identify and optimize performance bottlenecks, such as database queries or resource-intensive operations, to improve the overall responsiveness and scalability of the application.
+**Performance Optimization**: Identify and optimize performance bottlenecks, such as database queries or resource-intensive operations, to improve the overall responsiveness and scalability of the application.
 
-Dokerize the application using Laravel Sail.
+**Dokerize the application** using Laravel Sail.
 

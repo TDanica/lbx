@@ -64,7 +64,13 @@ In a real work scenario, I would incorporate the following additional features a
 
 **Error Handling**: Enhance error handling to provide meaningful error messages and status codes for different scenarios, such as invalid input or database errors (more improved way of handling errors).
 
-**Authentication and Authorization**: Secure the API endpoints using authentication mechanisms like JWT tokens and implement role-based access control to restrict access to certain endpoints.
+**Authentication**: Implement robust authentication mechanisms to ensure that only authorized users or applications can access my API. (API keys, OAuth 2.0, JWT, and OAuth tokens)
+
+**Authorization**: Implement and enforce authorization rules to control what authenticated users can do within my API. Will define roles and permissions, and ensure that users only have access to the resources they are authorized to access.
+
+ **HTTPS**: To encrypt the data exchanged between the client and the server, preventing eavesdropping and man-in-the-middle attacks.
+
+**Rate Limit**: To prevent abuse of API by limiting the number of requests a client can make within a certain time period. This will protect API from brute force attacks, denial of service attacks, and excessive usage.
 
 **Unit Testing**: Write comprehensive unit tests to ensure the reliability and stability of the application, covering both positive and negative scenarios.
 
@@ -73,6 +79,8 @@ In a real work scenario, I would incorporate the following additional features a
 **Logging**: Set up logging to record important events and errors, which can be useful for troubleshooting and monitoring the application in production environments. Already implemented but in more advanced way.
 
 **Performance Optimization**: Identify and optimize performance bottlenecks, such as database queries or resource-intensive operations, to improve the overall responsiveness and scalability of the application.
+
+** Rate Limiting**: Implement rate limiting to prevent abuse of your API by limiting the number of requests a client can make within a certain time period.
 
 **Dokerize the application** using Laravel Sail.
 

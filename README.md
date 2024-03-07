@@ -80,7 +80,7 @@ In a real work scenario, I would incorporate the following additional features a
 
 **Performance Optimization**: Identify and optimize performance bottlenecks, such as database queries or resource-intensive operations, to improve the overall responsiveness and scalability of the application.
 
-** Rate Limiting**: Implement rate limiting to prevent abuse of your API by limiting the number of requests a client can make within a certain time period.
+**Rate Limiting**: Implement rate limiting to prevent abuse of your API by limiting the number of requests a client can make within a certain time period.
 
 **Dokerize the application** using Laravel Sail.
 
